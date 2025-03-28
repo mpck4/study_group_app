@@ -26,4 +26,4 @@ class RepliesController {
     }
 }
 
-export default RepliesController;
+module.exports = RepliesController;

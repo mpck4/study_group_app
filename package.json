@@ -1,19 +1,28 @@
 {
   "name": "study-group-app",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "A basic study group app that allows users to make posts and replies.",
+  "main": "src/app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node study-group-app/src/app.js",
+    "dev": "nodemon study-group-app/src/app.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
-    "@supabase/supabase-js": "^2.49.3",
-    "body-parser": "^2.2.0",
-    "dotenv": "^16.4.7",
-    "express": "^4.21.2",
-    "pg": "^8.14.1"
-  }
+    "express": "^4.17.1",
+    "supabase-js": "^1.28.0",
+    "ejs": "^3.1.6",
+    "dotenv": "^10.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "keywords": [
+    "study",
+    "group",
+    "app",
+    "posts",
+    "replies"
+  ],
+  "author": "mpck4",
+  "license": "MIT"
 }

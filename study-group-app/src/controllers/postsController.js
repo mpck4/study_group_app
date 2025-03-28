@@ -25,4 +25,4 @@ class PostsController {
     }
 }
 
-export default PostsController;
+module.exports = PostsController;
